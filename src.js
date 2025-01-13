@@ -8,7 +8,7 @@ function Signup() {
       userData.push({ Email, password });
       localStorage.setItem("User", JSON.stringify(userData))
       alert("Data submit sucessfully....");
-      window.location.href = "index.html"
+      window.location.href = "main.html"
     }
     else {
       alert("Check the info")
@@ -27,7 +27,7 @@ function Signup() {
     let matched = data.find(x => x.Email === EmailLogin && x.password === passwordLogin)
     if (matched) {
       alert("Login Sucessful....")
-      window.location.href = "main.html";
+      window.location.href = "index.html";
     } else {
       alert(" Login info not matched....")
     }
