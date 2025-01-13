@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="cont">
+     
+     
+     
+        <div class="maincontainer">
+            <img src="img/astronaut.png" id="imglog" alt="" >
+            <div class="Infom">
+                <form>
+                    <h2>Login</h2>
+
+                    <label for="emailE">Email:</label>
+                  <input type="email"  required id="emailE">
+                  
+                    <label for="passP">Password:</label>
+                   <input type="password"  required id="passP">
+
+                    <span><a href="#" onclick="forget()">Forgot Password?</a></span>
+                    <!-- <button id="btnLog" type="submit" onclick="login()">Login</button> -->
+                     <input id="btn" type="button" onclick="login()" value="Login">
+                    <p>Don't have an Account?<a href="Register.html"> Register</a></p>
+                </form>
+                <img src="img/earthPlanet.png" id="imglog1" alt="" >
+            </div>
+        </div>
+    </div>
+<script src="src.js"></script>
+</body>
+
+</html>
